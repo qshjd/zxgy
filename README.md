@@ -1,37 +1,17 @@
-# zx_h5_version2
+# 臻选果园
 
 #### 介绍
-第二版
+该项目是一款h5订单录入系统前端界面
 
 #### 软件架构
-软件架构说明
+1.使用了taro.js来作为整个项目的基础架构
+
+2.使用taroUI库，弹窗、抽屉、时间选择器、图片选择器等等组件
+
+#### 项目截图
+![](http://47.101.189.79/images/zxgy1.png)
+![](http://47.101.189.79/images/zxgy2.jpg)
+![](http://47.101.189.79/images/zxgy3.jpg)
 
 
-#### 安装教程
 
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 使用说明
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 参与贡献
-
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
-
-
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)

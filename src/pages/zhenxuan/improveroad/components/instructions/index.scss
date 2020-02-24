@@ -1,0 +1,110 @@
+@import '../../../../../assets/sass/mixin';
+@import '../../../../../assets/sass/var';
+
+.prompts-box{
+    width: 92%;
+    margin-left: 4%;
+    margin-bottom: 50px;
+    .title-box{
+        @include layout();
+    }
+    .title{
+        margin-top:20px;
+        margin-bottom: 20px;
+        display: inline-block;
+        font-size: 30px;
+        position: relative;
+        z-index: 2;
+        text-align: center;
+    }
+    .title::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: -5%;
+        width: 110%;
+        height: 50%;
+        z-index: -1;
+        background: $theme_color;
+    }
+    .title2{
+        font-size: 36px;
+        text-align: center;
+    }
+    .attention,.goods-commission,.manage-bonus{
+        background: $theme_color;
+        height: 60px;
+        border-radius: 12px;
+        margin-top:10px;
+        display: flex;
+        border: 2px solid $theme_color;
+        .key{
+            width: 160px;
+            text-align: center;
+            color:#000000;
+            font-size: 28px;
+            line-height: 60px;
+        }
+        .value{
+            padding-left:10px;
+            padding-right: 10px;
+            color:#444444;
+            font-size: 24px;
+            line-height: 60px;
+        }
+    }
+    .goods-commission{
+        background: #FFFFFF;
+    }
+    .manage-bonus{
+        height:155px;
+        background: #FFFFFF;
+        .key{
+            
+        }
+        .name{
+            width: 160px;
+            line-height: 90px;
+            font-size: 28px;
+        }
+        .type{
+            font-size: 22px;
+            color: #555555;
+            line-height: 0px;
+        }
+        .value{
+            padding-left:10px;
+            line-height: 45px;
+            .value1{
+                font-size: 24px;
+            }
+            .value2{
+                font-size: 22px;
+                color:#919191;
+                line-height: 30px;
+            }
+        }
+    }
+    .order-sale{
+        height: 100px;
+        border-radius: 12px;
+        margin-top:20px;
+        display: flex;
+        border: 2px solid $theme_color;
+        overflow: hidden;
+        margin-bottom:20px;
+        .key-1{
+            width:296px;
+            text-align: center;
+            font-size: 28px;
+            background: $theme_color;
+            line-height: 50px;
+        }
+        .value-1{
+            padding-left:10px;
+            line-height: 50px;
+            font-size: 24px;
+            color:#444444;
+        }
+    }
+}

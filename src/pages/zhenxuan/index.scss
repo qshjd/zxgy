@@ -1,0 +1,294 @@
+@import '../../assets/sass/mixin';
+@import '../../assets/sass/var';
+.moreInfo-box{
+    min-height: 100vh;
+    overflow: hidden;/*触发BFC，清除浮动 即使父元素不设宽高，也能被撑开*/
+    background: $bg_color;
+    .top-box{
+        background-size:100% 100%;
+        height: 302px;
+        background-image: url('http://www.zhenxuanguoyuan.cn/server_wechat/images/webImg/moreInfo@2x.png');
+        overflow: hidden;
+        position: relative;
+        .user-box{
+            height: 130px;
+            width: 80%;
+            margin-left:10%;
+            margin-top:30px;
+            display: flex;
+            .userImg{
+                height: 130px;
+                width: 130px;
+                margin-right:20px;
+                border: 2px solid #ffffff;
+            }
+            .user-info{
+                @include layout6();
+                .name-level{
+                    display: flex;
+                    height:40px;
+                    .user-nickName{
+                        color: #27261a;
+                        font-size: 26px;
+                        line-height: 40px;
+                        margin-right:20px;
+                        letter-spacing:0.4px;
+                    }
+                    .level-icon{
+                        height: 40px;
+                        width: 142px;
+                    }
+                }
+                .daka-team{
+                    display: flex;
+                    .title{
+                        color: #27261a;
+                        opacity: 0.5;
+                        font-size: 22px;
+                        line-height: 20px;
+                        letter-spacing:0.3px;
+                    }
+                    .value{
+                        font-size: 26px;
+                        color: #27261a;
+                        line-height: 20px;
+                        letter-spacing:0.3px;
+                    }
+                }
+                
+                
+            }
+        }
+        .money-panel{
+            width: 92%;
+            height: 112px;
+            margin-left:4%;
+            background: linear-gradient(180deg, #4F4F4F, #212121);
+            border-radius:16px 16px 0 0 ;
+            bottom: 0;
+            position: absolute;
+            @include layout();
+            .ctt1-box{
+                width: 86%;
+                height: 80%;
+                @include layout2();
+                .tixian{
+                    .apply-money{
+                        color: #f7e7b6;
+                        font-size: 24px;
+                        line-height: 40px;
+                        .money-style{
+                            font-size: 28px;
+                        }
+                    }
+                    .apply-word{
+                        color: #bfbfbf;
+                        font-size: 18px;
+                        line-height: 40px;
+                    }
+                }
+                .detail-btn{
+                    height: 54px;
+                    background: #f7e7b6;
+                    border-radius: 14px;
+                    .words{
+                        text-align: center;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        line-height: 54px;
+                        font-size: 24px;
+                    }
+                }
+            }
+            
+        }
+    }
+    .cash-panel{
+        width: 92%;
+        height: 274px;
+        margin-left:4%;
+        background: #ffffff;
+        border-radius:0 0 16px 16px;
+        // @include layout();
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        .ques{
+            width:36px;
+            height:36px; 
+            position: absolute;
+            top:15px;
+            right:20px;
+            
+        }
+        .ctt2-box{
+            width: 100%;
+            height: 50%;
+            @include layout2();
+            .money-data{
+                width: 33.3%;
+                height: 70%;
+                border-right:3px solid #cfcfcf;
+                @include layout7();
+                .data{
+                    font-size: 29px;
+                    color: #27261a;
+                    font-weight: 600;
+                }
+                .des-word{
+                    width: 75%;
+                    font-size: 22px;
+                    color: #27261a;
+                    opacity:0.5;
+                    text-align: center;
+                }
+            }
+            .lastone{
+                border:none;
+            }
+        }
+    }
+    .user-order{
+        background: #FFFFFF;
+        border-radius: 16px;
+        width:92%;
+        height:220px;
+        margin-left:4%;
+        margin-top:20px;
+        .order-title{
+            width: 92%;
+            margin-left:4%;
+            line-height: 60px;
+            font-size: 30px;
+            color: #333333;
+            letter-spacing: 0.18px;
+            font-weight: 500;
+            box-shadow: 0px 0.8px #ebebeb;
+            
+        }
+        .order-icons{
+            margin-top:10px;
+            height:160px;
+            display: flex;
+            justify-content: space-around;
+            .order-icon{
+                width: 25%;
+                height: 120px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                .user-icon{
+                    width: 68px;
+                    height:68px;
+                    margin-left:auto;
+                    margin-right:auto;
+                    margin-top:10px;
+                }
+                .icon-word{
+                    font-size: 26px;
+                    color: #333333;
+                    letter-spacing: 0.16px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .usual-function{
+        width: 92%;
+        margin-left:4%;
+        background: #FFFFFF;
+        border-radius: 16px;
+        margin-top:20px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        .function-title{
+            width: 92%;
+            margin-left:4%;
+            line-height: 60px;
+            font-size: 30px;
+            color: #333333;
+            letter-spacing: 0.18px;
+            font-weight: 500;
+            box-shadow: 0px 0.8px #ebebeb;
+        }
+        .fun-icons{
+            margin-top:10px;
+            height:140px;
+            display: flex;
+            justify-content: space-around;
+            // justify-content:flex-start;
+            @include layout4();
+            margin-bottom: 40px;
+            .fun-icon{
+                width: 25%;
+                height: 140px;
+                @include layout1();
+                .user-icon{
+                    width: 68px;
+                    height:68px;
+                    margin-left:auto;
+                    margin-right:auto;
+                    margin-top:20px;
+                }
+                .icon-word{
+                    font-size: 26px;
+                    color: #333333;
+                    letter-spacing: 0.16px;
+                    text-align: center;
+                }
+            }
+        }
+        .team-icon{
+            width: 25%;
+            height: 140px;
+            // margin-top:10px;s
+            // border: 1px solid #000;
+            @include layout1();
+            .team-icon{
+                width: 68px;
+                height:68px;
+                margin-left:auto;
+                margin-right:auto;
+                // margin-top:20px;
+            }
+        }
+    }
+}
+
+.diago-btn{
+    background-color: #FEE310;
+    box-shadow: 0 -1px 0 0 #EBEBEB;
+    border-radius: 0px 0px 12px 12px;
+    color:black
+}
+.diago-word{
+    font-size: 28px;
+    color: #27261A;
+    letter-spacing: 0.17px;
+}
+.diago-content{
+    // display: flex;
+    // justify-content: center;
+}
+.diago-paragraph-1{
+    display: flex;
+    // border: 1px solid #000;
+    .circle{
+        width: 14px;
+        height:14px;
+        border-radius: 90%;
+        background: #FEE310;
+        border: 2px solid #27261A;
+        margin-top:12px;
+    }
+    .words{
+        width: 86%;
+        font-size: 28px;
+        color: #666666;
+        letter-spacing: 0.16px;
+        // line-height: 44px;
+        margin-left:16px;
+        margin-bottom:16px;
+    }
+}
+

@@ -1,0 +1,69 @@
+.de-box{
+    display: flex;
+    justify-content: center;
+}
+.de-box-ctt{
+    width: 92%;
+    height: 100%;
+    margin-bottom: 100px;
+    
+}
+.de-box-ctt-words1{
+    width: 100%;
+    height: 44px;
+    margin-top: 40px;
+    display: flex;
+    
+}
+.de-box-ctt-words2{
+    width: 100%;
+    height: 88px;
+    margin-top: 40px;
+    display: flex;
+}
+.de-box-ctt-words3{
+    width: 100%;
+    height: 132px;
+    margin-top: 40px;
+    display: flex;
+}
+.de-box-ctt-words-1{
+    width: 18px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+.de-box-ctt-words-2{
+    width: 94%;
+    height: 100%;
+    display: flex;
+    margin-left: 10px;
+}
+.de-box-ctt-words-ce{   
+    width: 14px;
+    height: 14px;
+    background: #FEE310;
+    border: 1px solid #27261A;
+    border-radius: 90%;
+    position: relative;
+
+}
+
+.de-box-ctt-words-title{
+    opacity: 1;
+    font-weight: 500;
+    font-family: PingFangSC-Medium;
+    font-size: 28px;
+    color: #333333;
+    letter-spacing: 0.32px;
+    line-height:44px;
+}
+.de-box-ctt-words-des{
+    
+    font-family: PingFangSC-Regular;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    color: #2A2A2A;
+    letter-spacing: 0.32px;
+    line-height: 44px;
+}

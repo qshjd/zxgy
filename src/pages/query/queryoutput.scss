@@ -1,0 +1,61 @@
+
+.queryoutput-box{
+    background: #f0f0f0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.query-list {
+    width: 92%;
+    // height: 196px;
+    // border: 1px solid #000;
+    box-sizing: border-box;
+    margin: 30px auto;
+    padding: 15px 30px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.query-list-left {
+    // width: 90%;
+    // height: 100px;
+    // border: 1px solid #000;
+}
+
+.query-list-time {
+    font-size: 24px;
+    color: #999999;
+    letter-spacing: 0.36px;
+}
+
+.query-list-infor {
+    font-size: 30px;
+    color: #333333;
+    letter-spacing: 0.44px;
+    margin: 8px 0px;
+    display: flex;
+}
+
+.query-list-name {
+    margin-right: 40px;
+}
+
+.query-list-goodinfor {
+    font-size: 28px;
+    color: #666666;
+    letter-spacing: 0.42px;
+}
+
+.query-list-icon {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}

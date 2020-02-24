@@ -1,0 +1,68 @@
+.tim-title{
+    background: #F4F4F4;
+    height: 96px;
+    display: flex;
+    align-items: center;
+}
+.tim-title-box{
+    background: #FEE310;
+    border-radius: 22px;
+    width: 130px;
+    height: 44px;
+    margin-left:30px;
+}
+.tim-title-box-word{
+    font-size: 24px;
+    color: #333333;
+    letter-spacing: 0.28px;
+    line-height: 44px;
+    text-align: center;
+}
+.tim-ctt{
+    width: 96%;
+    height: 108px;
+    margin-left:2%;
+    border-bottom: 1px solid #ECECEC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tim-ctt-name{
+    width: 114px;
+    height: 40px;
+    // border: 1px solid #000;
+    font-size: 28px;
+    color: #333333;
+    letter-spacing: 0.34px;
+}
+.tim-ctt-value,.tim-ctt-value-copy{
+    width: 284px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 28px;
+    color: #333333;
+    letter-spacing: 0.34px;
+}
+.tim-ctt-value-1{
+    width: 284px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 28px;
+    color: #333333;
+    letter-spacing: 0.34px;
+    margin-right:200px;
+}
+::placeholder{
+    font-size: 28px;
+    color: #BBBBBB;
+    letter-spacing: 0.34px;
+    // line-height: 30px;
+}
+.tim-ctt-action{
+    width: 58px;
+    height: 40px;
+    font-size: 28px;
+    color: #3A99F6;
+    letter-spacing: 0.34px;
+    margin-right:30px;
+}

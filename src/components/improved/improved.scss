@@ -1,0 +1,162 @@
+.ir-top {
+    width: 750px;
+    height: 420px;
+    background-image: url('http://47.101.189.79/zx_dist/assets/进阶背景@1x.png')
+}
+
+.ir-top-icons {
+    height: 160px;
+    width: 500px;
+    // border: 1px solid #000;
+    margin-left: 125px;
+    position: relative;
+    top: 20px;
+    display: flex;
+    // justify-content: space-between;
+}
+
+.ir-top-icon1 {
+    width: 114px;
+    height: 96px;
+    position: absolute;
+    bottom: 0;
+}
+
+.ir-top-icon2 {
+    position: absolute;
+    right: 0;
+    width: 188px;
+    height: 160px;
+}
+
+.ir-top-line {
+    // opacity: 0.2;
+    background: #818058;
+    border-radius: 8px;
+    width: 500px;
+    height: 16px;
+    margin-left: 125px;
+    position: relative;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ir-top-line-circle1 {
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border-radius: 90%;
+    margin-left: 48px;
+}
+
+.ir-top-line-circle2 {
+    width: 28px;
+    height: 28px;
+    background: #FFFFFF;
+    border-radius: 90%;
+    border: 5px solid gray;
+    color: gray;
+    margin-right: 74px;
+}
+
+.ir-top-ctt {
+    width: 500px;
+    height: 80px;
+    // border: 1px solid #000;
+    margin-left: 125px;
+    position: relative;
+    top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ir-top-ctt-1 {
+    width: 130px;
+    height: 100%;
+    // border: 1px solid #000;
+}
+
+.ir-top-ctt-2 {
+    width: 130px;
+    height: 100%;
+    // border: 1px solid #000;
+    margin-right: 20px;
+}
+
+.ir-top-ctt-name {
+    opacity: 0.3;
+    font-family: PingFangSC-Regular;
+    font-size: 32px;
+    color: #FFFFFF;
+    letter-spacing: 0.38px;
+    text-align: center;
+}
+
+.ir-top-ctt-name-1 {
+    font-family: PingFangSC-Regular;
+    font-size: 32px;
+    color: #FFFFFF;
+    letter-spacing: 0.38px;
+    text-align: center;
+}
+
+.ir-top-ctt-type {
+    opacity: 0.3;
+    font-family: PingFangSC-Regular;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0.28px;
+    text-align: center;
+}
+
+.ir-middle-word {
+    width: 750px;
+    height: 40px;
+    font-family: PingFangSC-Medium;
+    font-size: 28px;
+    color: #333333;
+    letter-spacing: 0.34px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.ir-bottom-ctt {
+    width: 690px;
+    height: 560px;
+    // border: 1px solid #000;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.ir-bottom-ctt-line {
+    width: 100%;
+    height: 120px;
+    // border: 1px solid #000;
+    margin-bottom: 30px;
+}
+
+.ir-bottom-ctt-line-2 {
+    width: 100%;
+    height: 80px;
+    // border: 1px solid #000;
+    margin-bottom: 30px;
+}
+
+.ir-bottom-ctt-line-title {
+    font-family: PingFangSC-Regular;
+    font-size: 26px;
+    color: #3F3F3F;
+    letter-spacing: 0.32px;
+    line-height: 40px;
+}
+
+.ir-bottom-ctt-line-ctt {
+    font-family: PingFangSC-Regular;
+    font-size: 26px;
+    color: #3F3F3F;
+    letter-spacing: 0.32px;
+    line-height: 40px;
+    opacity: 0.5;
+}

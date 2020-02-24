@@ -1,0 +1,24 @@
+@import "../../assets/sass/mixin";
+
+.page-list{
+    .header,.title{
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 100px;
+    }
+    .title{
+        font-size: 34px;
+        line-height: 60px;
+    }
+    .paragraph-s{
+        padding: 10px 20px 10px 20px;
+        font-size: 30px;
+    }
+    .paragraph{
+        padding: 10px 20px 10px 20px;
+        font-size: 30px;
+        text-indent: 2em;
+    }
+}
+

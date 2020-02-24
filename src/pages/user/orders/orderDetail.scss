@@ -1,0 +1,124 @@
+@import '../../../assets/sass/mixin';
+@import '../../../assets/sass/var.scss';
+.order-detail-box{
+    background: $bg_color;
+    min-height: 100vh;
+    .head-box{
+        height: 140px;
+        background: url('http://www.zhenxuanguoyuan.cn/server_wechat/images/webImg/001.png');
+        @include layout();
+        .order-status{
+            font-size: 32px;
+            font-weight: 540;
+        }
+    }
+    .label-box{
+        margin:30px 4% 20px;
+        .words{
+            display: inline;
+            padding: 6px 15px 6px 15px;
+            background: $theme_color;
+            border-radius: 36px;
+            font-size: 28px;
+        }
+    }
+    
+    .ctt-box{
+        width: 92%;
+        background: #ffffff;
+        border-radius: 16px;
+        margin-left:4%;
+        .line{
+            margin-left:4%;
+            font-size: 30px;
+            @include layout5();
+            .name,.tel,.addr{
+                line-height: 70px;
+            }
+            .tel{
+                margin-left:40px;
+                
+            }
+        }
+        .line3{
+            width: 92%;
+            margin-left:4%;
+            font-size: 28px;
+            @include layout2();
+            line-height: 60px;
+        }
+        .line4{
+            width: 92%;
+            margin-left:4%;
+            font-size: 28px;
+            line-height: 60px;
+        }
+        .top{
+            @include layout3();
+            padding: 20px 4% 20px 4%;
+            @include border-1px-bottom(#ECECEC);
+            .orderpanel-top-2-pic{
+                width: 140px;
+                height: 140px;
+                background: pink;
+            }
+            .orderpanel-top-2-infor{
+                width: 360px;
+                height: 140px;
+                // border: 1px solid #000;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .orderpanel-top-2-infor-name{
+                width: 360px;
+                height: 90px;
+                font-size: 28px;
+                color: #333333;
+                letter-spacing: 0.34px;
+                // line-height: 70px;
+            }
+            .orderpanel-top-2-infor-orgin{
+                .orderpanel-top-2-infor-orgin-word{
+                    background: #F4F4F4;
+                    font-size: 24px;
+                    color: #999999;
+                    letter-spacing: 0.28px;
+                    display: inline;
+                    padding:8px 20px 8px 20px;
+                    border-radius: 56px;
+                }
+            }
+            
+            .orderpanel-top-2-price{
+                font-size: 28px;
+                color: #333333;
+                letter-spacing: 0.34px;
+                width: 100px;
+                height: 40px;
+                text-align: right;
+            }
+        }
+        .mid{
+            @include border-1px-bottom(#ECECEC);
+            .line2{
+                width: 92%;
+                margin-left:4%;
+                @include layout2();
+                font-size:28px;
+                line-height: 60px;
+            }
+        }
+        .bot{
+            width: 92%;
+            margin-left:4%;
+            @include layout2();
+            font-size:32px;
+            line-height: 90px;
+        }
+    }
+    .box-bot{
+        height: 60px;
+        width: 100%;
+    }
+}

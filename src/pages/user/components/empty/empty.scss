@@ -1,0 +1,25 @@
+
+.empty-box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    .empty-icon{
+        width: 176px;
+        height: 176px;
+        // margin-left:287px;
+        margin-left:auto;
+        margin-right:auto;
+        // margin-top:500px;
+    }
+    .empty-icon-word{
+        width: 100%;
+        height: 36px;
+        font-size: 26px;
+        color: #999999;
+        letter-spacing: 0.32px;
+        text-align: center;
+    }
+}

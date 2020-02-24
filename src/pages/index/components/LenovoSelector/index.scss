@@ -1,0 +1,57 @@
+@import '../../../../assets/sass/mixin';
+.lenovo-box{
+    width: 80%;
+    max-height: 350px;
+    // height: 350px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 6;
+    top:80px;
+    // left:
+    right:0;
+    position: absolute;
+    border: solid 2px #bcdeff;
+    background: #f5faff;
+    .user-box{
+        width: 96%;
+        // border: 1px solid #000;
+        height: 100px;
+        margin-left:2%;
+        display: flex;
+        border-bottom: solid 1px #bcdeff;
+        .left{
+            width: 86%;
+            // border: 1px solid #000;
+            font-size: 22px;
+            height: 80px;
+            margin-top:10px;
+            // @include layout();
+            .top{
+                line-height: 20px;
+                height: 30%;
+                display: flex;
+            }
+            .bot{
+                height: 70%;
+                line-height: 30px;
+                @include layout5()
+            }
+        }
+        .right{
+            width: 14%;
+            @include layout();
+            .check-circle{
+                width: 40px;
+                height: 40px;
+                background: #c0e0ff;
+                border-radius: 90%;
+                text-align: center;
+                color: #ffffff;
+                font-size: 26px;
+                &.active{
+                    background: #3A99F6;
+                }
+            }
+        }
+    }
+}

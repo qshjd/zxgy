@@ -1,0 +1,13 @@
+@import '../../assets/sass/var';
+@import '../../assets/sass/mixin';
+.label-btn{
+    // @include layout();
+    background: $theme_color;
+    // margin-top:20px;
+    display: inline;
+    .words{
+        padding-left:10px; 
+        padding-right:10px; 
+        font-size: 24px;
+    }
+}

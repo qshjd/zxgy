@@ -1,0 +1,87 @@
+@import "../../assets/sass/var.scss";
+@import "../../assets/sass/mixin.scss";
+.select-back-panel{
+    z-index: 6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    .area-selector{
+        background: #fff;
+        // overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: auto;
+        height: 812px;
+        border-radius: 32px 32px 0 0;
+        animation: slideIn .3s;
+        &.on-close{
+            animation: slideOut .3s;
+        }
+        .title{
+            text-align: center;
+            padding: 36px 0;
+            font-size: 30px;
+        }
+        .selected-area{
+            box-shadow: 0 1px 0 0 #ECECEC;
+            height: 80px;
+            position: fixed;
+            // z-index: 999;
+            display: flex;
+            align-items: stretch;
+            padding: 0 28px;
+            @include border-1px-bottom(#ECECEC);
+            .selected-value{
+                // width: 200px;
+                padding-left:20px;
+                padding-right:20px;  
+                text-align: center;
+                line-height: 80px;
+                border-bottom: 4px solid transparent;
+                &.active{
+                    border-color: $theme_color;
+                }
+            }
+        }
+        .list-items{
+            flex-grow: 1;
+            z-index: 666;
+            position: absolute;
+            width: 100%;
+            height: 610px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            .list-item{
+                padding: 20px 60px;
+                margin-right: 34px;
+                &.active{
+                    background: url(../../imgs/popup_select@2x.png) no-repeat right center;
+                    background-size: 48px 48px;
+                }
+            }
+        }
+    }
+}
+
+@keyframes slideIn {
+    0%{
+        transform: translate3D(0,100%,0);
+    }
+    100%{
+        transform: translate3D(0,0,0);
+    }
+}
+@keyframes slideOut {
+    0%{
+        transform: translate3D(0,0,0);
+    }
+    100%{
+        transform: translate3D(0,100%,0);
+    }
+}

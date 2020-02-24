@@ -1,0 +1,35 @@
+.zx-box-top-details{
+    width: 96%;
+    height: 260px;
+    position: relative;
+    top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: column;
+}
+.zx-box-top-details-1{
+    // width:96%;
+    height: 130px;
+    display: flex;
+}
+.zx-box-top-details-1-ctt{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.zx-box-top-details-1-ctt-count{
+    font-size: 30px;
+    color: #27261A;
+    letter-spacing: 0.18px;
+    text-align: center;
+}
+.zx-box-top-details-1-ctt-word{
+    opacity: 0.5;
+    font-size: 24px;
+    color: #27261A;
+    letter-spacing: 0.14px;
+    text-align: center;
+}

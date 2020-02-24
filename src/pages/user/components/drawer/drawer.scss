@@ -1,0 +1,239 @@
+@import '../../../../assets/sass/mixin';
+@import '../../../../assets/sass/var';
+.sub-acitons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #F3F3F3;
+}
+.at-drawer__content{
+    z-index: 666;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    .drawer-btn-box{
+        position: absolute;
+        bottom:0;
+        z-index: 2;
+        width: 100%;
+        .drawer-bottom-btn{
+            box-shadow: 0px 0px 20px hsl(0, 10%, 76%);
+            height: 108px;
+            width: 100%;
+            display: flex;
+            .left2,.right2{
+                width: 50%;
+                background: #FFFFFF;
+                .btn-word{
+                    font-size: 30px;
+                    color: #000000;
+                    text-align: center;
+                    line-height: 108px;
+                }
+            }
+            .right2{
+                background: #FEE201;
+            }
+        }
+    }   
+    .drawer-ctt-box{
+        flex: 1;
+        overflow-y: scroll;
+        .drawer-item-title{
+            width: 100%;
+            height: 60px;
+            line-height: 60px;
+            font-size: 26px;
+            color: #999999;
+            letter-spacing: 0.32px;
+            text-align: center;
+        }
+        .drawer-item-time{
+            width: 92%;
+            height: 280px;
+            margin-left: auto;
+            margin-right:auto;
+            // border: 1px solid #000;
+            margin-top:10px;
+            border-bottom:1px solid #EBEBEB;
+        }
+        .drawer-item-time-1{
+            width: 100%;
+            height: 68px;
+            margin-bottom: 15px;
+            font-size: 30px;
+            color: #333333;
+            letter-spacing: 0.18px;
+            line-height: 68px;
+            font-weight: 600; 
+        }
+        .drawer-item-time-2{
+            width: 100%;
+            height: 68px;
+            margin-bottom: 15px;
+            // border: 1px solid #000;
+            display: flex;
+            justify-content: space-between;
+        }
+        .drawer-item-time-2-t{
+            font-family: PingFangSC-Medium;
+            font-size: 30px;
+            color: #333333;
+            letter-spacing: 0.18px;
+            line-height: 68px;
+        }
+        .drawer-item-time-2-b{
+            width: 306px;
+            // height: 68px;
+            background: #F5F4F7;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            ::placeholder{
+                color: #999999;
+            }
+        }
+        .weui-input {
+            padding-top:10px;
+            padding-bottom:10px;
+            font-size: 28px;
+        }
+        .drawer-item-2-b-picker{
+            font-family: PingFangSC-Regular;
+            font-size: 28px;
+            color: #333333;
+            letter-spacing: 0.34px;
+            line-height: 68px;
+            margin-left:30px;
+        }
+        .drawer-item-personinfor{
+            width: 92%;
+            height: 200px;
+            // border: 1px solid #000;
+            margin-left: auto;
+            margin-right:auto;
+            margin-top:20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-bottom:1px solid #EBEBEB;
+        }
+        ::placeholder{
+            font-size: 28px;
+            color: #333333;
+            letter-spacing: 0.34px;
+        }
+        .drawer-input{
+            margin-left: 30px;
+        
+        }
+        
+        .drawer-item-seletname,.drawer-item-seletname-active,.drawer-item-seletname-bot{
+            width: 92%;
+            height:160px;
+            overflow:hidden;
+            margin-left: 4%;
+            margin-top:20px;
+            // margin-bottom: 140px;
+            .title{
+                margin-top:20px;
+                margin-bottom:0px;
+                height: 42px;
+                @include layout2();
+                .word{
+                    font-size: 30px;
+                    color: #333333;
+                    letter-spacing: 0.36px;
+                    font-weight: 600;
+                }
+                .icon{
+                    width: 32px;
+                    height: 32px;
+                }
+            }
+            .tset{
+                widows: 4.5rem;
+            }
+            .allpeople{
+                @include layout4();
+                flex-flow: wrap;
+                margin-right:-3%;
+                .short-btn,.long-btn{
+                    width: 30.4%;
+                    height: 60px;
+                    background: #F5F4F7;
+                    border-radius: 40px;
+                    margin-top:20px;
+                    margin-right: 2.8%;
+                    overflow: hidden;
+                    .short-btn-word{
+                        font-size: 28px;
+                        color: #333333;
+                        letter-spacing: 0.34px;
+                        text-align: center;
+                        line-height: 60px;
+                    }
+                }
+                .long-btn{
+                    width: 100%;
+                }
+            }
+            
+        }
+        .drawer-item-seletname-bot{
+            height: 220px;
+            margin-bottom: 100px;
+        }
+    }
+    
+}
+.sub-acitons-look{
+    width: 186px;
+    height: 40px;
+    // border: 1px solid #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left:120px;
+    border-radius: 5px;
+}
+.sub-acitons-look:active
+{ 
+    background-color:#ADADAD;
+}
+.sub-acitons-chose{
+    position: absolute;
+    right:130px;
+    // position: fixed
+    width: 100px;
+    height: 40px;
+    // border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-acitons-chose:active{
+    background-color:#ADADAD	;
+}
+.sub-acitons-look-word{
+    font-size: 28px;
+    color: #666666;
+    letter-spacing: 0.42px;
+    // text-align: center;
+}
+.sub-acitons-look-icon{
+    width: 32px;
+    height: 32px;
+    // background-color: bisque;
+}
+.sub-bottom{
+    font-family: PingFangSC-Regular;
+    font-size: 28px;
+    color: #BBBBBB;
+    letter-spacing: 0.34px;
+    text-align: center;
+}
+
+

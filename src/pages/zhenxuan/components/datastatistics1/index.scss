@@ -1,0 +1,34 @@
+.pd-tabs-ctt{
+    background: #ffffff;
+    border-bottom: 20px solid #F3F3F3; 
+    .title{
+        height: 80px;
+        color:#555555;
+        font-size: 28px;
+        line-height: 80px;
+        text-align: center;
+    }
+    .datas{
+        width: 100%;
+        display: flex;
+        margin-bottom: 40px;
+        .data{
+            height: 120px;
+            width: 33.3%;
+            // overflow: hidden;
+            color: #27261a;
+            text-align: center;
+            
+            .money{
+                line-height: 70px;
+                // color: #27261a;
+                font-size: 34px;
+            }
+            .describe{
+                line-height: 20px;
+                opacity: 0.5;
+                font-size: 26px;
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.tm-member-infor{
+    width: 92%;
+    height: 144px;
+    // border: 1px solid #000;
+    margin-left:4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ECECEC;
+}
+.tm-member-infor-left{
+    width: 70%;
+    height: 72px;
+    // border: 1px solid #000;
+    display: flex;
+    // justify-content: space-between;
+}
+.tm-member-infor-left-1{
+    width: 72px;
+    height: 72px;
+    border-radius: 90%;
+}
+.tm-member-infor-left-2{
+    padding-left: 20px;
+    width: 280px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tm-member-infor-left-2-name{
+    font-family: PingFangSC-Regular;
+    font-size: 28px;
+    color: #27261A;
+    letter-spacing: 0.34px;
+    line-height: 36px;
+}
+.tm-member-infor-left-2-time{
+    font-family: PingFangSC-Regular;
+    font-size: 24px;
+    color: #999999;
+    letter-spacing: 0.28px;
+}
+.tm-member-infor-right{
+    width: 110px;
+    height: 48px;
+    background: #FEE310;
+    border-radius: 24px;
+}
+.tm-member-infor-right-word{
+    font-family: PingFangSC-Regular;
+    font-size: 26px;
+    color: #27261A;
+    letter-spacing: 0.32px;
+    line-height: 48px;
+    text-align: center;
+}

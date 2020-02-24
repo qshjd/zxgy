@@ -1,0 +1,106 @@
+@import '../../../assets/sass/mixin';
+@import '../../../assets/sass/var';
+.modifyaddr-box{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background: $bg_color;
+}
+.modifyaddr-box-ctt{
+    flex: 1;
+    overflow-y: scroll;
+    
+    .title-btn{
+        width: 21%;
+        height: 44px;
+        background: #FEE310;
+        border-radius: 22px;
+        margin-left: 4%;
+        margin-top:20px;
+        margin-bottom:20px;
+        font-size: 24px;
+        color: #333333;
+        letter-spacing: 0.28px;
+        text-align: center;
+        line-height: 44px;
+    }
+    .box1{
+        width: 92%;
+        height: 188px;
+        margin-left: 4%;
+        background: #FFFFFF;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        .old-infor{
+            width: 100%;
+            height: 60%;
+        }
+        .line{
+            height: 50%;
+            display: flex;
+            font-size: 28px;
+            color: #666666;
+            letter-spacing: 0.38px;
+            margin-left:4%;
+            // margin-bottom: 20p
+            .name,.tel{
+                width: 140px;
+                font-size: 30px;
+                color: #333333;
+                letter-spacing: 0.44px;
+                font-weight: 500;
+            }
+            .tel{
+                width: 400px;
+                margin-left:4%;
+            }
+        }
+    }
+    .box2{
+        width: 92%;
+        height: 500px;
+        background: #FFFFFF;
+        border-radius: 16px;
+        margin-left: 4%;
+        .ctt,.ctt-b{
+            width: 92%;
+            margin-left: 4%;
+            height: 22%;
+            @include border-1px-bottom(#ECECEC);
+            display: flex;
+            align-items: center;
+            .title{
+                width: 30%;
+                height: 40px;
+                font-size: 30px;
+                color: #333333;
+                letter-spacing: 0.34px;
+                line-height: 40px;
+            }
+            .input{
+                height: 40px;
+                width: 60%;
+                margin-left: 4%;
+            }
+            ::placeholder{
+                font-size: 30px;
+                color: #BBBBBB;
+                letter-spacing: 0.34px;
+            }
+            .weui-input{
+                font-size: 30px;
+            }
+        }
+        .ctt-b{
+            border:none;
+            height: 34%;
+            .text-area{
+                width: 60%;
+                margin-left: 4%;
+                height: 80px;
+                border: 1px solid #000;
+            }
+        }
+    }
+}

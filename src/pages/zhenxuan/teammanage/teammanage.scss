@@ -1,0 +1,181 @@
+.tm-container{
+    .empty-members{
+        // width: 1;
+        margin-top:120px;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .empty-word{
+            font-size: 26px;
+            color: #999999;
+            letter-spacing: 0.32px;
+            text-align: center;
+        }
+    }
+}
+.tm-container-top{
+    width: 100%;
+    background-color: rgba(250,250,250,0.90);
+    height:578px;
+}
+.tm-panel{
+    background-size:100% 100%;
+    width: 92%;
+    height: 360px;
+    background-image: url('http://www.zhenxuanguoyuan.cn/server_wechat/images/webImg/team_background@1x.png');
+    border-radius: 24px;
+    margin-left:4%;
+    position: relative;
+    top:30px;
+}
+.tm-panel-ctt{
+    width: 92%;
+    height: 280px;
+    position: relative;
+    top:40px;
+    // margin-top:40px;
+    margin-left:4%;
+    // border: 1px solid #000;
+}
+.tm-panel-ctt-1{
+    width: 100%;
+    height: 50%;
+    // border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+}
+.tm-panel-ctt-1-box{
+    position: relative;
+    top:0;
+    width: 146px;
+    height: 100%;
+    // border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tm-panel-ctt-1-box-count{
+    width: 100%;
+    height: 50%;
+    font-family: PingFangSC-Medium;
+    font-size: 32px;
+    color: #FFFFFF;
+    letter-spacing: 0.38px;
+    text-align: center;
+    // border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tm-panel-ctt-1-box-word{
+    width: 100%;
+    height: 50%;
+    opacity: 0.4;
+    font-family: PingFangSC-Regular;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0.28px;
+    text-align: center;
+    // text-align: center;
+}
+.tm-panel2{
+    width: 92%;
+    height: 128px;
+    border-radius: 24px;
+    margin-left:4%;
+    margin-top:60px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tm-panel2-infor{
+    // width: 200px;
+    height: 72px;
+    // border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+}
+.tm-panel2-infor-lefticon{
+    width: 72px;
+    height: 72px;
+}
+.tm-panel2-infor-leftword{
+    font-family: PingFangSC-Medium;
+    font-size: 28px;
+    color: #27261A;
+    letter-spacing: 0.34px;
+    line-height: 72px;
+}
+.tm-container-middle{
+    width: 100%;
+    height: 96px;
+    border-bottom: 1px solid #ECECEC;
+}
+.tm-container-middle-word{
+    font-family: PingFangSC-Medium;
+    font-size: 28px;
+    color: #333333;
+    letter-spacing: 0.34px;
+    line-height: 96px;
+    font-weight: 600;
+    margin-left:4%;
+}
+// .tm-member-infor{
+//     width: 92%;
+//     height: 144px;
+//     // border: 1px solid #000;
+//     margin-left:4%;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     border-bottom: 1px solid #ECECEC;
+// }
+// .tm-member-infor-left{
+//     width: 310px;
+//     height: 72px;
+//     // border: 1px solid #000;
+//     display: flex;
+//     justify-content: space-between;
+// }
+// .tm-member-infor-left-1{
+//     width: 72px;
+//     height: 72px;
+//     border-radius: 90%;
+// }
+// .tm-member-infor-left-2{
+//     width: 220px;
+//     height: 72px;
+//     display: flex;
+//     flex-direction: column;
+// }
+// .tm-member-infor-left-2-name{
+//     font-family: PingFangSC-Regular;
+//     font-size: 28px;
+//     color: #27261A;
+//     letter-spacing: 0.34px;
+    
+// }
+// .tm-member-infor-left-2-time{
+//     font-family: PingFangSC-Regular;
+//     font-size: 24px;
+//     color: #999999;
+//     letter-spacing: 0.28px;
+// }
+// .tm-member-infor-right{
+//     width: 110px;
+//     height: 48px;
+//     background: #FEE310;
+//     border-radius: 24px;
+// }
+// .tm-member-infor-right-word{
+//     font-family: PingFangSC-Regular;
+//     font-size: 26px;
+//     color: #27261A;
+//     letter-spacing: 0.32px;
+//     line-height: 48px;
+//     text-align: center;
+// }

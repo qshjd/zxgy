@@ -1,0 +1,122 @@
+@mixin border-1px-left ($color) {
+    position:relative;
+    &:after{
+        content:'';
+        position: absolute;
+        border-left: 1px solid $color;
+        transform: scaleX(.5);
+        left:0;
+        top:0;
+        bottom:0;
+    }
+}
+@mixin border-1px-bottom ($color) {
+    position:relative;
+    &:after{
+        content:'';
+        position: absolute;
+        border-bottom: 1px solid $color;
+        transform: scaleY(.5);
+        left:0;
+        right:0;
+        bottom:0;
+    }
+}
+@mixin border-1px-top ($color) {
+    position:relative;
+    &:after{
+        content:'';
+        position: absolute;
+        border-top: 1px solid $color;
+        transform: scaleY(.5);
+        left:0;
+        right:0;
+        top:0;
+    }
+}
+@mixin text-overflow ($line : 1) {
+    white-space: normal;
+    -webkit-line-clamp:$line;
+    -webkit-box-orient:vertical;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    display:-webkit-box;
+    word-break: break-all;
+}
+@mixin border($color,$radius){
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top:0;
+        width: 200%;
+        height: 200%;
+        border: 1px solid $color;
+        border-radius:$radius;
+        transform-origin: 0 0;
+        transform: scale(0.5, 0.5);
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
+//元素居中（上下左右）
+@mixin layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin layout1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+//左右分列（两边无空隙）
+@mixin layout2 {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+//左右自适应隔开（左右有空隙）
+@mixin layout3 {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+//元素从右往左依次排开
+@mixin layout4 {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+//元素上下居中
+@mixin layout5 {
+    display: flex;
+    align-items: center;
+}
+//上下布局（两头对齐）
+@mixin layout6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@mixin layout7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+//元素左右居中
+@mixin layout8 {
+    display: flex;
+    justify-content: center;
+}
+//元素上下排列，左右居中
+@mixin layout9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

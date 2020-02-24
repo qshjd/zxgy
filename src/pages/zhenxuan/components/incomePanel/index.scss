@@ -1,0 +1,73 @@
+.ah-content-detail-line{
+    width: 92%;
+    height: 144px;
+    margin-left:4%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ECECEC;
+    display: flex;
+    justify-content: space-between;
+}
+.ah-content-detail-line-icon{
+    background: #FEE94D;
+    width: 72px;
+    height: 72px;
+    border-radius: 90%;
+}
+.ah-content-detail-line-icon-word{
+    font-family: PingFangSC-Regular;
+    font-size: 32px;
+    color: #27261A;
+    letter-spacing: 0.4px;
+    text-align: center;
+    line-height: 72px;
+}
+.ah-content-detail-line-icon-t{
+    background: #3A99F6;
+    width: 72px;
+    height: 72px;
+    border-radius: 90%;
+}
+.ah-content-detail-line-icon-word-t{
+    font-family: PingFangSC-Regular;
+    font-size: 32px;
+    color: #FFFFFF;
+    letter-spacing: 0.4px;
+    text-align: center;
+    line-height: 72px;
+}
+.ah-content-detail-line-words{
+    width: 86%;
+    height:72px;
+}
+.ah-content-detail-line-words-top{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.ah-content-detail-line-words-top-1{
+    font-family: PingFangSC-Regular;
+    font-size: 28px;
+    color: #27261A;
+    letter-spacing: 0.36px;
+    line-height: 40px;
+}
+.ah-content-detail-line-words-top-2{
+    font-family: PingFangSC-Medium;
+    font-size: 32px;
+    color: #27261A;
+    letter-spacing: 0.4px;
+    line-height: 40px;
+}
+.ah-content-detail-line-words-bot{
+    // width: 750px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+.ah-content-detail-line-words-bot-1{
+    font-family: PingFangSC-Regular;
+    font-size: 24px;
+    color: #999999;
+    letter-spacing: 0.28px;
+}

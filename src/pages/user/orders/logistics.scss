@@ -1,0 +1,240 @@
+@import '../../../assets/sass/mixin';
+@import '../../../assets/sass/var';
+
+.log-box{
+    display: flex;
+    height: 100vh;
+    flex-direction: column
+}
+.log-box-ctt{
+    flex: 1;
+    overflow-y: scroll;
+    
+    .title{
+        height: 184px;
+        background: #F3E0E2;
+        @include layout();
+        .words{
+            height: 132px;
+            width: 94%;
+            font-size: 26px;
+            color: #FB3F4C;
+            letter-spacing: 0;
+            line-height: 44px;
+        }
+    }
+    .line{
+        background: rgba(250,250,250,0.90);
+        height: 20px;
+    }
+    .goods{
+        height: 200px;
+        @include layout();
+        .box1{
+            width: 92%;
+            height: 140px;
+            display: flex;
+            .pic{
+                width: 140px;
+                height: 140px;
+                background-color: pink;
+            }
+            .des{
+                width: 400px;
+                height: 80px;
+                font-size: 30px;
+                color: #333333;
+                letter-spacing: 0.34px;
+                margin-top:30px;
+                margin-left:30px;
+            }
+        }
+    }
+    .select{
+        height: 116px;
+        @include border-1px-bottom(#ECECEC);
+        @include layout();
+        .box2{
+            height: 40px;
+            width: 92%;
+            @include layout2();
+            .key{
+                width: 120px;
+                font-size: 28px;
+                color: #333333;
+                letter-spacing: 0.34px;
+                font-weight: 500;
+            }
+            .value,.value-select{
+                width: 300px;
+                font-size: 28px;
+                color: #BBBBBB;
+                letter-spacing: 0.34px;
+                font-weight: 500;
+            }
+            .value-select{
+                color: #333333;
+            }
+            .icon{
+                width: 24px;
+                height: 24px;
+            }
+            .input{
+                width: 450px;
+                
+            }
+            .weui-input{
+                font-size: 28px;
+            }
+            ::placeholder{
+                font-size: 28px;
+                color: #BBBBBB;
+                letter-spacing: 0.34px;
+            }
+        }
+    }
+    .claims-box{
+        height: 224px;
+        width: 92%;
+        margin-top:20px;
+        margin-left:4%;
+        .claims-input{
+            width: 100%;
+            height: 80px;
+            @include layout2();
+            .claims-word{
+                font-size: 28px;
+                color: #333333;
+                letter-spacing: 0.34px;
+                line-height: 80px;
+            }
+            .claims-ctt{
+                width: 27%;
+                height: 80px;
+                background: #F4F4F4;
+                border-radius: 40px;
+                @include layout();
+                ::placeholder{
+                    font-size: 28px;
+                    color: #BBBBBB;
+                    letter-spacing: 0.34px;
+                    text-align: center;
+                    
+                }
+                .weui-input{
+                    font-size: 28px;
+                    width: 80%;
+                    // line-height: 80px;
+                }
+            }
+        }
+        .claims-words{
+            width: 100%;
+            height: 144px;
+            background: #F4F4F4;
+            border-radius: 4px;
+            margin-top:20px;
+            @include layout();
+            .claims-words-ctt{
+                width: 96%;
+                font-size: 26px;
+                color: #999999;
+                letter-spacing: 0.16px;
+            }
+        }
+    }
+    .credentials{
+        margin-top:30px;
+        width: 92%;
+        height: 540px;
+        margin-left:4%;   
+        .title2{
+            height: 40px;
+            font-size: 24px;
+            color: #333333;
+            letter-spacing: 0.34px;
+            line-height: 40px;
+            font-weight: 600;
+        }
+        .pics{
+            height: 182px;
+            margin-top:30px;
+            overflow: hidden;
+        }
+        .box3{
+            background: #F4F4F4;
+            border-radius: 4px;
+            height: 108px;
+            margin-top:30px;
+            @include layout();
+            .bottom-words{
+                width: 92%;
+                height: 72px;
+                font-size: 26px;
+                color: #999999;
+                letter-spacing: 0.32px;
+            }
+        }
+    }
+    .at-action-sheet__header{
+        font-weight: 600;
+        font-size: 30px;
+        color: #333333;
+        letter-spacing: 0.36px;
+        text-align: center;
+    }
+    .at-action-sheet__container{
+        border-radius: 32px 32px 1px 1px;
+    }
+    .sheet-box{
+        height: 560px;
+        .select-line{
+            @include layout();
+            height: 200px;
+            .select-box{
+                width: 86%;
+                height: 120px;
+                .bottom-btn{
+                    box-shadow: none;
+                }
+                .select-title{
+                    height: 42px;
+                    .select-one,.select-two{
+                        height: 42px;
+                        width: 100%;
+                        @include layout2();
+                        .select-word1{
+                            font-size: 30px;
+                            color: black;
+                            letter-spacing: 0.18px;
+                            font-weight: 550;
+                        }
+                        .select-icon,.select-icon-selected{
+                            width: 52px;
+                            height: 52px;
+                            border: 2px solid rgb(187, 187, 187);
+                            border-radius: 90%;
+                            line-height: 52px;
+                        }
+                        .select-icon-selected{
+                            background-color: $theme_color;
+                            border-color: $theme_color;
+                        }
+                    }
+                    .select-two,.select-two2{
+                        margin-top:20px;
+                        height: 72px;
+                        font-size: 26px;
+                        color: #999999;
+                        letter-spacing: 0.16px;
+                        text-align: left;
+                    }
+                    .select-two2{
+                        height: 36px;
+                    }
+                    
+                }
+            }
+        }
+    }
+}

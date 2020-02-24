@@ -1,0 +1,93 @@
+.login-container {
+    background-color: #FFFFFFFF;
+    // width: 750px;
+    // min-height: 80vh;
+    // margin-top: 78px;
+    position: relative;
+    top: 78px;
+}
+
+::placeholder {
+    font-size: 30px;
+    color: #BBBBBB;
+    letter-spacing: 0.36px;
+    //line-height: 96px;
+}
+
+.login-logo {
+    width: 180px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 110px;
+    border-radius: 42px;
+}
+
+.login-mobile,
+.login-password-input {
+    margin-bottom: 60px;
+    width: 590px;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+.login-password-input {
+    margin-bottom: 100px;
+}
+
+.login-password {
+    display: flex;
+}
+
+//使输入框中的文字垂直居中
+.at-input__container {
+    height: 100%;
+}
+
+.password-get {
+    color: #333333!important;
+    border-style: hidden;
+    background-color: #FFFFFFFF;
+}
+
+.password-get-text {
+    font-size: 28px!important;
+    letter-spacing: 0.34px;
+}
+
+.login-agree {
+    width: 590px;
+    height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+    color: #000000;
+}
+
+.login-agree-xieyi {
+    font-size: 26px;
+    color: #09bb0773;
+    line-height: 36px;
+    width: 590px;
+    height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+}
+
+.login-button {
+    width: 590px;
+    height: 96px;
+    background-image: linear-gradient(-90deg, #F5E269 0%, #FEE100 100%);
+    border-radius: 48px;
+    border-style: hidden;
+    margin-top: 80px;
+    font-size: 32px;
+    color: #000000;
+}
+
+.general-box {
+    background-color: rgba(250, 250, 250, 0.90);
+}

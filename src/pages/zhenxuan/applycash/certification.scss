@@ -1,0 +1,108 @@
+
+.ct-top{
+    // opacity: 0.1;
+    background-color: #F3E0E2;
+    width: 100%;
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ct-top-words{
+    width: 92%;
+    height: 88px;
+    // border: 1px solid #000;
+}
+.ct-top-words-sy{
+    // opacity: 1;
+    font-family: PingFangSC-Regular;
+    font-size: 26px;
+    color: #FB3F4C;
+    letter-spacing: 0.3px;
+    line-height: 44px;
+}
+.ct-content-title{
+    width: 100%;
+    height: 100px;
+    background-color: #FFFFFF;
+    font-size: 32px;
+    color: #333333;
+    letter-spacing: 0.36px;
+    line-height: 100px;
+    margin-top:20px;
+    padding-left:4%;
+    font-weight: bold;
+}
+.ct-content-name{
+    width: 100%;
+    height: 116px;
+    background-color: #FFFFFF;
+    // margin-top:20px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid  #EBEBEB;
+    .at-input__title{
+        font-size: 30px;
+    }
+    .at-input input{
+        color: #666666;
+    }
+    .at-input__overlay{
+        color: #666666;
+    }
+}
+.ct-content-name-input{
+    line-height: 40px;
+    // border: 1px solid #000;
+    // margin-left: 10PX;
+}
+::placeholder{
+    // line-height: 20PX;
+    font-size: 28px;
+}
+.ct-content-number{
+    width: 100%;
+    height: 116px;
+    background-color: #FFFFFF;
+    // margin-top:10PX;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    .at-input__title{
+        font-size: 30px;
+    }
+    .at-input input{
+        color: #666666;
+    }
+    .at-input__overlay{
+        color: #666666;
+    }
+    
+}
+.ct-xieyi{
+    width: 92%;
+    height: 132px;
+    // border: 1px solid #000;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:60px;
+}
+.ct-xieyi-sy{
+    font-family: PingFangSC-Regular;
+    font-size: 26px;
+    color: #999999;
+    letter-spacing: 0.32px;
+    line-height:44px;
+}
+.cer-bottom{
+    display: flex;
+    align-items: flex-end;
+    height: 208px;
+    // height: 100%;
+    width: 100%;
+    // border: 1px solid #000;
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <!-- <meta content="width=device-width,initial-scale=1,user-scalable=no" name="viewport"> -->
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="format-detection" content="telephone=no,address=no">
+  <meta name="apple-mobile-web-app-status-bar-style" content="white">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title></title>
+  <style>
+    body,html{
+      background:#ffffff
+    }
+  </style>
+  <script>
+    !function(x){function w(){var v,u,t,tes,s=x.document,r=s.documentElement,a=r.getBoundingClientRect().width;if(!v&&!u){var n=!!x.navigator.appVersion.match(/AppleWebKit.*Mobile.*/);v=x.devicePixelRatio;tes=x.devicePixelRatio;v=n?v:1,u=1/v}if(a>=640){r.style.fontSize="40px"}else{if(a<=320){r.style.fontSize="20px"}else{r.style.fontSize=a/320*20+"px"}}}x.addEventListener("resize",function(){w()});w()}(window);
+  </script>
+  <script src="http://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+  <!-- 非微信端不可打开 -->
+  <!-- <script>
+    let u = navigator.userAgent.toLowerCase();
+      let isWeixin = u.indexOf('micromessenger') != -1;
+      if (!isWeixin) {
+        window.location.href = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=888"
+      }
+  </!--> -->
+  <script>
+    window.onload=function(){
+      document.body.addEventListener('focusout', () => {
+      //软键盘收起的事件处理
+      let ua = window.navigator.userAgent;
+      let app = window.navigator.appVersion;
+      //$alert('浏览器版本: ' + app + '\n' + '用户代理: ' + ua);
+      if(!!ua.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)) {
+          //$alert('ios端');
+      var currentPosition, timer;
+      var speed = 1;
+      timer = setInterval(function() {
+          currentPosition = document.documentElement.scrollTop || document.body.scrollTop;
+          currentPosition -= speed;
+          window.scrollTo(0, currentPosition); //页面向上滚动
+          currentPosition += speed;
+          window.scrollTo(0, currentPosition); //页面向下滚动
+          clearInterval(timer);
+      }, 100);
+        } else if(ua.indexOf('Android') > -1 || ua.indexOf('Adr') > -1) {
+            //$alert('android端');
+        }
+      })
+      window.addEventListener('resize',()=>{
+        if(document.activeElement.tagName == 'INPUT' || document.activeElement.tagName == 'TEXTAREA'){
+          window.setTimeout(()=>{
+            if('scrollIntoView' in document.activeElement){
+              document.activeElement.scrollIntoView()
+            }else{
+              document.activeElement.scrollIntoViewIfNeeded()
+            }
+          })
+        }
+      },100)
+    }
+  </script>
+</head>
+<body style="font-size:12px;height: 100%;" >
+  <div id="app"></div>
+</body>
+</html>

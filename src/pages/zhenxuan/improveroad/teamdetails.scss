@@ -1,0 +1,87 @@
+@import '../../../assets/sass/mixin';
+@import '../../../assets/sass/var';
+
+.order-count-detail{
+    min-height: 100vh;
+    // background: #f4f4f4;
+    overflow: hidden;
+    .panel{
+        width: 92%;
+        height: 120px;
+        margin-left:4%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border-radius: 8px;
+        border: solid 2px #eaeaea;
+        display: flex;
+        text-align: center;
+        overflow: hidden;
+        .status{
+            width: 22%;
+            font-size: 32px;
+            line-height: 120px;
+        }
+        .qualified{
+            background: #73c989;
+        }
+        .unqualified{
+            background:  #ff7d7d;
+        }
+        .mark-number{
+            width: 25%;
+            border-right:2px solid #eaeaea;
+            .title{
+                color: #555555;
+                font-size: 24px;
+                line-height: 70px;
+            }
+            .num{
+                font-size: 34px;
+                line-height: 40px;
+            }
+        }
+        .real-number{
+            width: 53%;
+            text-align: center;
+            .title{
+                color: #555555;
+                font-size: 22px;
+                line-height: 70px;
+            }
+            .num{
+                font-size: 34px;
+                line-height: 40px;
+            }
+        }
+    }
+    .icon{
+        display: inline-block;
+        font-size: 26px;
+        padding: 5px 20px;
+        background: $theme_color;
+        margin-left:4%;
+        margin-top:20px;
+        margin-bottom:20px;
+        border-radius: 25px;
+    }
+    .table-box{
+        width: 100%;
+        background: #ffffff;
+        overflow: hidden;
+        tr>th{
+            font-size: 30px;
+            color: #666666;
+            border-bottom: 2px solid  #ececec;
+            width: 33.3%;
+            height: 80px;
+            font-weight: 400;
+        }
+        tr>td{
+            text-align:center;
+            font-size: 32px;
+            color: #333333;
+            height: 120px;
+            border-bottom: 2px solid  #ececec;
+        }
+    }
+}

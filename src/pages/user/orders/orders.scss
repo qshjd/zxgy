@@ -1,0 +1,108 @@
+@import '../../../assets/sass/var';
+.order-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background:#F3F3F3;
+    .at-tabs__header{
+        position: fixed;
+        z-index: 500;
+        background: #ffffff;
+    }
+    .loading-img{
+        z-index:499
+    }
+}
+.order-search{
+    position:fixed;
+    width: 100%;
+    z-index: 666;
+    .order-search-box{
+        height: 100px;
+        background: #F3F3F3;
+        position: absolute;
+        top:90px;
+        right:0;
+        left:0;
+        display: flex;
+        align-items: center;
+    }
+}
+.at-tabs__item{
+    font-family: PingFangSC-Regular;
+    font-size: 28px;
+    color: #888888;
+    letter-spacing: 0.42px;
+    text-align: center;
+}
+.at-tabs__item--active{
+    font-family: PingFangSC-Medium;
+    font-size: 28px;
+    color: #333333;
+    letter-spacing: 0.42px;
+    text-align: center;
+}
+.at-tabs__item-underline{
+    background-color: #FEE310;
+    border-radius: 4px;
+    width: 30%;
+    height: 10px;
+    display: block;
+    position: absolute;
+    bottom:0;
+    left:35%;
+    right:auto;
+}
+
+.taro_router{
+    // background: rgba(250, 250, 250, 0.99);
+}
+.confirm-title{
+    font-size: 30px;
+    color: #27261A;
+    letter-spacing: 0.36px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.confirm-ctt{
+    display: flex;
+    width: 92%;
+    margin-left:4%;
+    margin-top:20px;
+    margin-bottom:20px;
+    justify-content: space-around;
+    .confirm-circle{
+        
+        margin-top:10px;
+        width: 14px;
+        height: 14px;
+        background-color: #FEE310;
+        border: 2px solid #000;
+        border-radius: 90%;
+    }
+    .confirm-word{
+        width: 90%;
+        font-size: 28px;
+        color: #666666;
+        letter-spacing: 0.32px;
+        line-height: 44px;
+    }
+}
+.confrim-agin{
+    font-size: 30px;
+    font-weight: 600;
+}
+.cancle-confirm{
+    background-color: #FEE310;
+    color: white;
+    font-size: 36px;
+}
+.at-modal__footer .at-modal__action > button:last-child{
+    background-color: #FEE310;
+    color: #27261A;
+    font-size: 30px;
+}

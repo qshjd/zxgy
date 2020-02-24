@@ -1,0 +1,129 @@
+.money-panel{
+    width: 100%;
+    height: 252px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .panel-title{
+        opacity: 0.5;
+        font-size: 24px;
+        color: #27261A;
+        letter-spacing: 0.28px;
+        text-align: center;
+    }
+    .money-count{
+        font-size: 52px;
+        color: #333333;
+        letter-spacing: 0.62px;
+        text-align: center;
+    }
+    .rest-time{
+        display: flex;
+        font-size: 26px;
+        color: #27261A;
+        letter-spacing: 0.28px;
+        // text-align: center;
+        justify-content: center;
+        .rest-word{
+            margin-right:10px;
+        }
+        .colon{
+            padding-left:5px;
+            padding-right:5px;
+        }
+        .time-box{
+            border-radius: 5px;
+            height: 44px;
+            width: 44px;
+            background: #fee310;
+            text-align: center;
+            line-height: 44px;
+        }
+    }
+}
+.pay-type{
+    margin-top:20px;
+    width: 100%;
+    height: 240px;
+    background: #ffffff;
+    .pay-title{
+        padding-top:20px;
+        margin-left:4%;
+        font-size: 26px;
+        color: #333333;
+        letter-spacing: 0.32px;
+    }
+    .wx-pay{
+        margin-top:20px;
+        width: 92%;
+        margin-left:4%;
+        height: 92px;
+        display: flex;
+        justify-content: space-between;
+        .wx-icon{
+            display: flex;
+            .pay-word{
+                font-size: 28px;
+                color: #333333;
+                letter-spacing: 0.36px;
+                text-align: center;
+                line-height: 92px;
+                padding-left: 10px;
+            }
+        }
+        .select-icon{
+            width: 42px;
+            height: 42px;
+            margin-top:auto;
+            margin-bottom:auto;
+            border-radius: 90%;
+            background: #fee310;
+            font-size:26px;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+}
+.bottom-btn-check{
+    position: fixed;
+    // z-index: -1;
+    bottom:0;
+    left:0;
+    right:0;
+    // width: 100%;
+    display: flex;
+    height: 108px;
+    box-shadow: 0px 0px 20px hsl(0, 10%, 76%);
+    .order-infor{
+        width: 70%;
+        background: white;
+        .money{
+            margin-top:10px;
+            text-align: right;
+            font-size: 26px;
+            color: #333333;
+            letter-spacing: 0.34px;
+            margin-right:20px;
+        }
+        .prompt{
+            padding:4px 6px 0px 0px;
+            font-size: 22px;
+            color: #999999;
+            letter-spacing: 0.26px;
+            text-align: right;
+        }
+    }
+    .confirm{
+        width: 30%;
+        background: #FEE310;
+        .confirm-word{
+            font-size: 30px;
+            color: #333333;
+            letter-spacing: 0.36px;
+            text-align: center;
+            line-height: 108px;
+        }
+        
+    }
+}
